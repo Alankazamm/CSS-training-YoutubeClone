@@ -1,0 +1,98 @@
+button{
+    cursor:pointer;
+}
+.btn-ubr {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(0, 0, 0, 1);
+    padding: 10px 10px 10px 10px;
+    
+}
+
+.btn-amz {
+    color: rgba(0, 0, 0, 1);
+    background-color: rgba(255, 216, 20, 1);
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    
+    padding: 12px 60px 12px 60px;
+    border-radius: 24px;
+}
+
+.btn-gth {
+    color:rgba(255,255,255,1);
+    background-color:rgba(46,164,79,1);
+    border:none;
+    font-size:18px;
+    font-weight:600;
+    
+    padding:10px 18px 10px 18px;
+    border-radius:6px;
+
+}
+.btn-bts-1{
+    color:rgba(255,255,255,1);
+    background-color:rgba(121,82,179,1);
+    border:none;
+    font-size:16px;
+    font-weight:600;
+   
+    padding:12px 20px 12px 20px;
+    border-radius:4px;
+
+}
+.btn-bts-2{
+    color:rgba(108,117,125,1);
+    background-color:rgba(255,255,255,1);
+    border-width: 1px;
+    border-color:rgba(108,117,125,1);
+   
+    font-size:16px;
+    font-weight:600;
+    padding:12px 20px 12px 20px;
+    border-radius:4px;
+}
+
+.btn-lkd-1{
+    font-size:22px;
+    font-weight:600;
+    color:rgba(255,255,255,1);
+    background-color:rgba(10,102,194,1);
+    border:none;
+    padding:16px 32px 16px 32px;
+    border-radius:28px;
+
+}
+
+.btn-lkd-2{
+    font-size:22px;
+    font-weight:600;
+    color:rgba(10,102,194,1);
+    background-color:rgba(255,255,255,1);
+    border-width:2px;
+    border-color:rgba(10,102,194,1);
+    padding:16px 32px 16px 32px;
+    border-radius:32px;
+}
+
+#preco{
+    color:rgba(0,118,0,1);
+}
+.amz-link{
+    color:rgba(0,113,133,1);
+    font-size:18px;
+    
+}
+.txt-enf{
+    font-weight:600;
+}
+#ex2f{
+    font-size:14px;
+    padding:10px 16px 10px 16px;
+}
+#ex2f-2{
+    font-size:14px;
+    padding:10px 28px 10px 28px;
+    background-color:rgba(255,164,28,1);
+}
+
