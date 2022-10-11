@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main {
+            display: grid;
+            grid-template-columns: 60px 1fr 100px;
+            width: 300px;
+            box-shadow:1px 1px 4px rgba(0,0,0,0.4);
+        }
+
+        #hor1 {
+            overflow: hidden;
+            height: 60px;
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #hor1 img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+
+
+        }
+
+        #hor2 {
+            
+        }
+
+        #hor3 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #hor2a {
+            
+            font-weight: 700;
+        }
+
+        #hor2b {
+            
+        }
+
+        #hor2b,
+        #hor2c {
+            color: darkgray;
+        }
+        #hor3 button{
+            background-color:rgb(29, 155, 240);
+            color:white;
+            padding:10px 12px 10px 12px;
+            border:none;
+            font-size:16px;
+            border-radius:4px;
+            cursor:pointer;
+            
+
+        }
+        #hor3 button:active{
+            background-color:rgba(29, 155, 240,0.4);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div id="hor1">
+            <img src="./imgs/tomcat.jpg">
+        </div>
+        <div id="hor2">
+            <div id="hor2a">Tom</div>
+            <div id="hor2b">o gato</div>
+            <div id="hor2c">popular</div>
+        </div>
+        <div id="hor3">
+            <button>Follow</button>
+        </div>
+    </div>
+</body>
+
+</html>
