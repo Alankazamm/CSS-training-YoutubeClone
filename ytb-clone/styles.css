@@ -1,0 +1,15 @@
+.search-bar {
+    display: block;
+}
+
+.thumbnail {
+    width: 300px;
+
+}
+
+.video-title {
+    width: 300px;
+}
+
+.video-autor,
+.video-stats {}
