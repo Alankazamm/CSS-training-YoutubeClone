@@ -2,14 +2,34 @@
     display: block;
 }
 
+
 .thumbnail {
     width: 300px;
 
 }
 
 .video-title {
-    width: 300px;
+    width: 100%;
+    margin-top:0;
 }
-
+.channel-picture{
+    width:50px;
+    display:inline-block;
+    vertical-align:top;
+}
+.profile-picture{
+    width:40px;
+    border-radius:50%;
+}
+.video-info{
+    width:200px;
+    display:inline-block;
+}
+.video-preview{
+    width:300px;
+    display:inline-block;
+    vertical-align:top;
+    margin-right:15px;
+}
 .video-autor,
 .video-stats {}
