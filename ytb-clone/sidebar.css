@@ -1,0 +1,47 @@
+.side-bar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    background-color: white;
+    width: 72px;
+    z-index: 200;
+    padding-top:5px;
+
+
+
+}
+
+.side-item {
+    height: 76px;
+    cursor: pointer;
+
+    margin-bottom: 0px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.side-item:hover {
+    background-color: rgba(128, 128, 128, 0.252);
+}
+
+.side-item-name {
+    margin-top: 1px;
+    color: rgb(33 37 41);
+    font-size: 10px;
+    font-family: Roboto, Arial;
+
+
+
+
+}
+
+.side-icn {
+
+    height: 24px;
+
+}
